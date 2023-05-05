@@ -10,21 +10,19 @@ const BookingAndSchedule = () => {
                 <div className="hero-content flex-col lg:flex-row">
                     <div className='w-full md:w-1/2 lg:w-1/2 h-full'>
                         <div className='flex flex-col gap-4'>
-                            <div className="card w-full h-[250px] shadow-xl image-full">
-                                <figure><img src={mainland} className='w-full' alt="Shoes" /></figure>
-                                <div className="card-body">
-
-                                    <h2 className="text-3xl text-center my-16">Midland Freight</h2>
-
-                                </div>
+                            <div className=" w-2/3 h-[250px] shadow-xl image-full"
+                                style={{
+                                    background: `url(${mainland})`,
+                                    backgroundSize: 'cover'
+                                }}>
+                                <h1 className='font-bold text-2xl text-white text-center my-28'>Mainland Freight</h1>
                             </div>
-                            <div className="card w-full h-[250px] shadow-xl image-full">
-                                <figure><img src={inland} className='w-full' alt="Shoes" /></figure>
-                                <div className="card-body">
-
-                                    <h2 className="text-3xl text-center my-16">Inland Freight</h2>
-
-                                </div>
+                            <div className=" w-2/3 h-[250px] shadow-xl image-full"
+                                style={{
+                                    background: `url(${inland})`,
+                                    backgroundSize: 'cover'
+                                }}>
+                                <h1 className='font-bold text-2xl text-white text-center my-28'>Inland Freight</h1>
                             </div>
                         </div>
                     </div>
